@@ -19,7 +19,7 @@ $("button").click(
 
                     $('<p>',
                        {
-                         text: resp.logradouro + "/ " + resp.bairro,
+                         text: resp.logradouro + " - " + resp.bairro,
                          class:"btn btn-success form-control"
                        }
                     
